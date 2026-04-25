@@ -1,11 +1,10 @@
 class Tuisky < Formula
   desc "Terminal Bluesky client"
   homepage "https://github.com/blackmichael/tuisky"
-  version "1.0.0"
-  license "MIT"
-
   url "https://github.com/blackmichael/tuisky/releases/download/v1.0.0/tuisky-1.0.0-darwin-arm64.tar.gz"
   sha256 "1c6d5da7f7d6366918e218dce87d7095e6f039c1ce951ee0b24e9219c7f9d85c"
+  version "1.0.0"
+  license "MIT"
 
   on_intel do
     url "https://github.com/blackmichael/tuisky/releases/download/v1.0.0/tuisky-1.0.0-darwin-x64.tar.gz"
